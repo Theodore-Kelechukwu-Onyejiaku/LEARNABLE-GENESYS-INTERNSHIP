@@ -1,0 +1,23 @@
+=>An object can be created in two ways
+	1)Object Literals
+	2)Object Constructors
+
+=>(1)Object Literals:
+	var car = {
+		name: "toyota", 
+		tyres: 4, 
+		doors: 4, 
+		horn:
+	}
+=>(2)Object Constructors
+	var person = new Object();
+	person.name = "Theodore";
+	person.lastName = "Onyejiaku";
+	person.getFullname = function(){
+		return this.name + this.lastName;
+	}
+
+=>Object.keys(car)
+	--this will return all the keys of this object passed in.
+
+=>Objects passed to a function are called "Objects passed by reference".

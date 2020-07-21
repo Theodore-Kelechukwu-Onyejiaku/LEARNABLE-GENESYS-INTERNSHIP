@@ -1,0 +1,13 @@
+1)Returning Functions
+2)Function Expressions
+	let variableFunction = function realFunction(){
+					console.log("This is a function expression");
+			       }
+3)Anonymous Functions
+	let anonymousFunction = function(){
+					console.log("This is a normal function but an anonymous function");
+				}
+
+//////////////////////////////////////////////////////////////////
+***The arguments keyword is used to access the arguments or parameters passed into a function
+

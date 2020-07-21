@@ -1,0 +1,60 @@
+body {
+  background-color: #061621;
+  color: white;
+}
+.box {
+  border-left: 0.2em solid green;
+}
+h1 > span {
+  padding: 0 3% 0 3%;
+  border-top: 1px solid grey;
+}
+.center-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.row-flex {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3%;
+  width: 100%;
+}
+
+.row-flex > input:text {
+  width: 100%;
+}
+
+.flex-item {
+  width: 70%;
+}
+
+.row-flex div:first-child {
+  border-bottom: 3px solid green;
+}
+
+.btn-primary {
+  padding: 3%;
+  border-radius: 3%;
+}
+
+.todoItem {
+  margin-left: 0%;
+  outline: none;
+
+  background: transparent;
+  color: white;
+  border-top: none;
+  border-bottom: none;
+  width: 200px;
+  font-size: small;
+}
+
+.status {
+  border-left: 3px solid green;
+  padding: 0 3% 0 3%;
+}
+
+.transparent {
+  background: transparent;
+}

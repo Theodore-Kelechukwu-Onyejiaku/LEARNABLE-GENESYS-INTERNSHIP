@@ -1,0 +1,21 @@
+1)There are four fundamentals of OOP
+	>> a)Encapsulation
+	>> b)Data Abstraction
+	>> c)Inheritance
+	>> d)Polymorphism
+
+2)There are different paradigmns to use when coding. This depends on the problem
+	>> a)Functional 
+	>> b)OOP
+	>>
+3)During production, multiple paradigms are being used on a single application.
+
+4)Object Pradigms is the belief that Objects should be the fundamental building blocks of a program
+
+5)JavaScript is a multiple paradigm programming language.
+
+6)>>Encapsulation: this is about hiding the properties, methods and values of an object from the outside
+  
+  >>Abstraction: this is a way of abstracting things. It is useful when in the future I want to remove a certain library from my codebase
+  
+  >>Inheritance: this is the "is a" and "has a" relationships between objects. With inheritance, we advocate for code reuse of similar functions.

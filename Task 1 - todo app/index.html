@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1 class="text-center"><span>Todos App</span></h1>
+    </div>
+    <div class="container" style="margin-bottom: 250px;">
+        <div class="box">
+            <div>
+                <!-- Todos Status Start -->
+                <div class="mt-5 center-flex">
+                    <p class="status">Todos Completed: <span id="todosCompleted">0</span></p>
+                    <p class="status">Todos Left: <span id="todosIncompleted">0</span></p>
+                </div>
+                <!-- End of Todos Status -->
+
+                <!-- Error Message -->
+                <p class="text-center text-danger" id="error" style="display: none;">This todo has already been created
+                </p>
+                <!-- End of Error message -->
+
+                <!-- Add todos box -->
+                <div class="mt-5 center-flex">
+
+                    <div class="form-group flex-item">
+                        <form action="">
+                            <input type="text" class="form-control" name="" id="todoItem" autocomplete="off">
+                            <div class="text-center mt-3">
+                                <input type="submit" class="btn btn-primary" value="Add todo" id="addTodo">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- End of todos box -->
+            </div>
+        </div>
+
+        <!-- All Todos -->
+        <div class="center-flex mb-5">
+            <div class="column-flex" id="todos-container">
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+    <nav class="navbar mt-5 center-flex navbar-expand-sm  navbar-dark fixed-bottom"
+        style="border-left:5px solid green;border-right:5px solid green;">
+        <div class="text-center">
+            Done by: Theodore Kelechukwu Onyejiaku
+            <br>For: Genesys Tech Hub
+        </div>
+    </nav>
+    <script src="index.js"></script>
+</body>
+
+</html>
