@@ -1,0 +1,110 @@
+body{
+    background-color:#061621;
+    font-family: "Akzidenz Grotesk",Helvetica,Arial,sans-serif !important;
+    color:#9bb7c7
+}
+h2{
+    text-align: center;
+}
+.container{
+    margin-top: 5%;
+}
+
+.container div:first-child{
+    margin-bottom: 3%;
+}
+
+table{
+    margin-top: 10%;
+    clear: both;
+    border-left: 3px solid #0ad05b;
+    
+}
+
+thead tr th{
+    color: #e6edf1;
+}
+tr button{
+    float:right
+}
+tr:hover{
+    background-color: #0ad05b;
+    color:white
+}
+tr:hover button{
+    background-color:#061621;
+}
+
+div p:first-child{
+    float:left;
+    color: #e6edf1;
+}
+div p:nth-child(2){
+    float: right;
+    color: #e6edf1;
+}
+
+p span{
+    color:#9bb7c7
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    margin:5% 0 5% 0;
+}
+
+div.myModal{
+    border: 3px solid #0ad05b;
+    padding:3%;   
+    width: 80%;
+}
+
+#modal_box{
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 30%;
+    overflow: auto;
+    margin: auto;
+    width: 70%;
+    font-size: larger;
+    overflow: auto;
+    z-index: 100;
+    transition: ease-in-out;
+    color:#e6edf1;
+    background-color: #0ad05b;
+}
+
+button#close_modal{
+    float:none;
+    background-color:transparent;
+    border-color:transparent;
+    outline-color: transparent;
+    color: #061621;
+}
+#close_modal:hover{
+    color:white;
+}
+
+.result{
+    display: none;
+    clear:both;
+    color:#0ad05b;
+    padding: 3%;
+}
+
+input{
+    color:black
+}
+
+.center-flex {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    color:white
+  }

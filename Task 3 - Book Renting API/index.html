@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Renting API</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="modal.js"></script>
+</head>
+
+<body>
+    <!-- MODAL START -->
+    <div id="modal_box">
+        <div class="center">
+            <div class="myModal">
+                <h3><i><span id="rented_book_title">Book Title</span></i></h3>
+                <h4>By <span id="rented_book_author"></span></h4>
+                <h3>Successfully Rented!!!</h3>
+            </div>
+            <div>
+                <button id="close_modal" onclick="closeModal()">X</button>
+            </div>
+        </div>
+    </div>
+    <!-- END OF MODAL -->
+
+    <div class="container">
+        <div>
+            <h2>Book Renting API</h2>
+        </div>
+        <div class="center">
+            <input oninput="search()" type="text" name="" id="search_value" placeholder="Search for a book"
+                style="background-image: url('searchicon.png');background-repeat: no-repeat;background-position:20px 20px 20px;width:70%;padding-left: 10%;border:none">
+        </div>
+        <div>
+            <p>Books Available: <span id="books_available">0</span></p>
+            <p>Books Rented: <span id="books_rented">0</span></p>
+        </div>
+        <div>
+            <h4 class="result">Search Results >></h5>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Rent</th>
+                </tr>
+            </thead>
+            <tbody id="books">
+            </tbody>
+        </table>
+
+        <nav class="navbar mt-5 center-flex navbar-expand-sm  navbar-dark fixed-bottom"
+            style="border-left:5px solid green;border-right:5px solid green;">
+            <div class="text-center">
+                Done by: Theodore Kelechukwu Onyejiaku
+                <br>For: Genesys Tech Hub
+            </div>
+        </nav>
+    </div>
+</body>
+<script src="script.js" async></script>
+
+</html>

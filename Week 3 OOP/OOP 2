@@ -1,0 +1,25 @@
+1) Object Literals are just a way of creating objects by giving it properties.
+
+2) Ctrl + F5 is to run JavaScript on your VS Code on MAC. 
+
+3) Object Constructors is a way of creating a particular type of an Object and
+   creating a new instance whenever it is called without you having to write a
+   plenty objects. This way, you avoid spaghetti code.
+
+4) Prototypes and Inheritance go hand in hand.
+
+5) function.prototype helps share properties and methods
+
+6) PS: remember that "this" references another scope when using arrow functions. 
+      so be careful when using it for prototype and inheritance
+
+7) setters and getters are ways by which we get and change(set) the properties of an objects
+
+8) getters will take no parameter. It is just to return properties
+
+9) setters are just to manipulate or change properties and must take in parameters.
+
+10) Encapsulation involves ways of making data not accessible to the outside
+
+//QUESTIONS
+1) How do I run JavaScript on my VS Code on Windows?

@@ -1,0 +1,78 @@
+body{
+    background-color: #343a40;
+    color:white;
+    
+}
+
+.title{
+  border-left: 0.2em solid green;
+  padding: 3%;
+}
+.ml6 {
+    position: relative;
+    font-weight: 900;
+    font-size: 200%;
+    text-align: center;
+  }
+  
+  .ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  .list-group-item{
+    color:black
+  }
+  .list-group-item:hover{
+    background-color: #343a40;
+    color:white;
+  }
+
+  .center-flex {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .text-center{
+    border-left: 3px solid green;
+    border-right: 3px solid green;
+    padding: 1%;
+  }
+
+
+  .modal{
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 20%;
+    overflow: auto;
+    margin: auto;
+    width: 70%;
+    font-size: larger;
+    overflow: auto;
+    z-index: 100;
+    transition: ease-in-out;
+}
+
+.modal h3{
+  margin-top: 0;
+  background-color: rgba(255, 68, 0, 0.952);
+  padding-top: 0%;
+  padding: 2%;
+  color: white;
+}
+.modal{
+  background-color: white; 
+  color: black;           
+}

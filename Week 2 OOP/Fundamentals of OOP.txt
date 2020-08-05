@@ -4,10 +4,12 @@
 	>> c)Inheritance
 	>> d)Polymorphism
 
-2)There are different paradigmns to use when coding. This depends on the problem
+2)There are different paradigms to use when coding. This depends on the problem
 	>> a)Functional 
 	>> b)OOP
-	>>
+	>> c)Imperative
+	>> d)Logical
+
 3)During production, multiple paradigms are being used on a single application.
 
 4)Object Pradigms is the belief that Objects should be the fundamental building blocks of a program
@@ -19,3 +21,25 @@
   >>Abstraction: this is a way of abstracting things. It is useful when in the future I want to remove a certain library from my codebase
   
   >>Inheritance: this is the "is a" and "has a" relationships between objects. With inheritance, we advocate for code reuse of similar functions.
+
+
+7)>> In object modelling we use UML(Unified Modelling Languages): You use this to establish relationships between entities without first coding
+
+8)Methods of creating Objects
+	>>a)Object literals
+	>>b)Constructor Functions
+	>>c)Classes
+	>>d)Object.create
+
+9)Classes give us an easy way to create Object Constructors using the class keyword
+
+10)the delete keyword unary operator is used to delete a property from an object
+	eg. delete anObject.left
+
+11)The in keyword is used to find if a property is present in an object
+	console.log("left" in anObject);
+
+12)Two objects can refrence or bind a certain object. This means that the when we modify
+	the contents of object1 we have at the same time modified the contents of object2
+
+13)when we use == for objects, it compares only if the values are the same and if they reference the same object

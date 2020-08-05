@@ -1,0 +1,36 @@
+1)The log entries can be represented as an array
+
+2)The log should contain numbers, strings and boolean. The boolean 
+    is to show if he turned to a weresquirrel or not.
+
+3)An example:
+    let day1 = {
+    squirrel: false,
+    events: ["work", "touched tree", "pizza", "running"]
+    };
+    console.log(day1.squirrel);
+    // → false
+    console.log(day1.wolf);
+    // → undefined
+    day1.wolf = false;
+    console.log(day1.wolf);
+    // → false
+
+4)We use the "phi" for correlation 
+
+5)The "phi" enables us to find if an event that occured in all 
+    our arrays pushed in gives us a result whether it is likely the cause.
+
+6)-1 means not related and 1 means related
+
+7)formula for phi correlation(2 x 2 table) is:
+    n11n00 - n10n01 / squareRoot(n1n0n1n0);
+
+    where n11 = when squirrel, ate pizza
+          n00 = when not squirrel, no pizza 
+          n10 = when squirrel, no pizza
+          n01 = when not squirrel, ate pizza,
+          n1 = sum of second row values
+          n0 = sum of first row values
+          n1 = sum of second column
+          n0 = sum of first column
